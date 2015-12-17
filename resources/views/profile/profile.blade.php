@@ -2,9 +2,14 @@
 
 @section('content')
     @parent
-
     <div class="row">
         <div class="col-sm-12">
+            {!!Form::select('characterSelector', $profileList)!!}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Use Skills</h1>
             <table class="table">
                 <thead>
                     <tr>
@@ -44,9 +49,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($items as $item)
+                    @foreach($itemList as $item)
                         <tr>
                                 <td class="{{$item->branch}}">{{$item->name}}</td>
+                                @for($i = 0; $i < 24; $i++)
+                                    <td>{{$i}}</td>
+                                @endfor
+                                
                         </tr>
                     @endforeach
                 </tbody>

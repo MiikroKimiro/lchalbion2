@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use App\User;
 use App\Profile;
 use App\Item;
+use App\useSkill;
 
 class ProfileController extends Controller
 {
@@ -22,12 +23,24 @@ class ProfileController extends Controller
     {
         $user = Auth::user();
         $items = Item::all();
+        
+        $profileList = Profile::where('user_id', '=', 1)->lists('characterName', 'id');
+        // $request = /* where (useSkills = profile_id)
+        //               return [item_id => [tier_id], item_id => [tier_id]] */
+        
+        $itemList = useSkill::where('profile_id', '=', 1)
+            ->join('items', 'items.id', '=', 'item_id')
+            ->join('tiers', 'tiers.id', '=', 'tier_id')
+            ->groupBy('items.name')
+            ->get(['items.name', 'tiers.tier']);
+        
+        
+        return view('profile.profile', compact('items', 'profileList', 'itemList'));
+    }
 
-        $profileUse = Profile::where('user_id', $user)->get('useSkills');
-
-
-
-        return view('profile.profile', compact('items'));
+    public function getCharacterUse(Request $request)
+    {
+        
     }
 
     /**

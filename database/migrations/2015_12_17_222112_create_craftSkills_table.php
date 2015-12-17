@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProfilesTable extends Migration
+class CreateCraftSkillsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,11 @@ class CreateProfilesTable extends Migration
      */
     public function up()
     {
-        Schema::create('profiles', function (Blueprint $table) {
+        Schema::create('craftSkills', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id');
-            $table->string('characterName');
+            $table->integer('profile_id');
+            $table->integer('item_id');
+            $table->integer('tier_id');
             $table->timestamps();
         });
     }
@@ -27,6 +28,6 @@ class CreateProfilesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('profiles');
+        Schema::drop('craftSkills');
     }
 }

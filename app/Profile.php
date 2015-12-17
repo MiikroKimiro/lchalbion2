@@ -18,10 +18,17 @@ class Profile extends Model
      *
      * @var array
      */
-    protected $fillable = ['user', 'useSkills', 'craftSkills'];
+    protected $fillable = ['user_id', 'characterName'];
 
     public function user()
     {
         return $this->belongsTo('App\User');
     }
+    
+    public function useSkill()
+    {
+        return $this->hasMany('App\useSkill');
+    }
+    
+    
 }

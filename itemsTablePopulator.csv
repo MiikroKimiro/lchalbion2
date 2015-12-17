@@ -1,0 +1,82 @@
+Weapon,Sword,Broadsword
+Weapon,Sword,Claymore
+Weapon,Sword,Glaive
+Weapon,Axe,Battleaxe
+Weapon,Axe,Greataxe
+Weapon,Axe,Scythe
+Weapon,Mace,Mace
+Weapon,Mace,Heavy Mace
+Weapon,Mace,Flail
+Weapon,Hammer,Hammer
+Weapon,Hammer,Polehammer
+Weapon,Hammer,Greathammer
+Weapon,Crossbow,Crossbow
+Weapon,Crossbow,Heavy Crossbow
+Weapon,Crossbow,Repeating Crossbow
+Weapon,Bow,Bow
+Weapon,Bow,Warbow
+Weapon,Bow,Longbow
+Weapon,Spear,Spear
+Weapon,Spear,Pike
+Weapon,Spear,Halberd
+Weapon,Nature,Nature Staff
+Weapon,Nature,Great Nature Staff
+Weapon,Nature,Wild Staff
+Weapon,Dagger,Dagger
+Weapon,Dagger,Double Dagger
+Weapon,Dagger,Claws
+Weapon,Quarterstaff,Quarterstaff
+Weapon,Quarterstaff,Iron-clad Staff
+Weapon,Quarterstaff,Double Bladed Staff
+Weapon,Fire,Fire Staff
+Weapon,Fire,Great Fire Staff
+Weapon,Fire,Inferno Staff
+Weapon,Holy,Holy Staff
+Weapon,Holy,Great Holy Staff
+Weapon,Holy,Divine Staff
+Weapon,Arcane,Arcane Staff
+Weapon,Arcane,Great Arcane Staff
+Weapon,Arcane,Enigmatic Staff
+Weapon,Frost,Frost Staff
+Weapon,Frost,Great Frost Staff
+Weapon,Frost,Glacial Staff
+Weapon,Curse,Cursed Staff
+Weapon,Curse,Great Cursed Staff
+Weapon,Curse,Demonic Staff
+Off-Hand,Shield,Shield
+Off-Hand,Torch,Torch
+Off-Hand,Tome,Tome
+Armor,Plate,Heavy Plate Helmet
+Armor,Plate,Heavy Plate Armor
+Armor,Plate,Heavy Plate Boots
+Armor,Plate,Light Plate Helmet
+Armor,Plate,Light Plate Armor
+Armor,Plate,Light Plate Boots
+Armor,Plate,Medium Plate Helmet
+Armor,Plate,Medium Plate Armor
+Armor,Plate,Medium Plate Boots
+Armor,Leather,Medium Leather Hood
+Armor,Leather,Medium Leather Armor
+Armor,Leather,Medium Leather Shoes
+Armor,Leather,Heavy Leather Hood
+Armor,Leather,Heavy Leather Armor
+Armor,Leather,Heavy Leather Shoes
+Armor,Leather,Light Leather Hood
+Armor,Leather,Light Leather Armor
+Armor,Leather,Light Leather Shoes
+Armor,Cloth,Light Cloth Hood
+Armor,Cloth,Light Cloth Robe
+Armor,Cloth,Light Cloth Shoes
+Armor,Cloth,Medium Cloth Hood
+Armor,Cloth,Medium Cloth Robe
+Armor,Cloth,Medium Cloth Shoes
+Armor,Cloth,Heavy Cloth Hood
+Armor,Cloth,Heavy Cloth Robe
+Armor,Cloth,Heavy Cloth Shoes
+Tools,Stone,Stone Hammer
+Tools,Hide,Skinning Knife
+Tools,Ore,Pickaxe
+Tools,Fiber,Sickle
+Tools,Wood,Axe
+Accesories,Cape,Cape
+Accesories,Bag,Bag
