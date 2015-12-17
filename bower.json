@@ -1,0 +1,22 @@
+{
+  "name": "lch_Albion.2.0.0",
+  "description": "LCH Albion Management App",
+  "main": "",
+  "authors": [
+    "MiikroKimiro <kriimo666@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "startbootstrap-sb-admin-2": "~1.0.8"
+  }
+}
